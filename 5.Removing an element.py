@@ -1,0 +1,5 @@
+list1=list([1,2,3,4,5])
+print(list1)
+inp=int(input("Enter the element's position To delete"))
+a=list1.remove(inp)
+print("After Deleting",list1)
